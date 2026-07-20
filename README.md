@@ -28,6 +28,12 @@ Main features:
 ### Repository
 - Model Development
   - https://github.com/DeltaX-AI-Lab/icms-yolox
+ 
+### version
+| Name | Version | tensor_bits | Note | Path |
+|-------|---------|-----|-------|------|
+
+
 
 ---
 
