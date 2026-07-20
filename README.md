@@ -6,7 +6,7 @@ This repository serves as the **central repository** for the **YURA ICMS (In-Cab
 
 Since the project consists of multiple AI models with independent development cycles, each model is maintained in a separate Git repository.
 
-This repository acts as an index that provides an overview of each model, its purpose, related repositories, and datasets.
+This repository acts as an index that provides an overview of each model, its purpose and related repositories.
 
 ---
 
