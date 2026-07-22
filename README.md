@@ -30,9 +30,9 @@ Main features:
   - https://github.com/DeltaX-AI-Lab/icms-yolox
  
 ### version
-| Name | Version | tensor_bits | Note | Path |
-|-------|---------|-----|-------|------|
-
+| Version| Name  | dataset | train by | Note | origin |
+|-------|---------|-----|-------|------|----|
+| v1.0|object-detection_v1.0| | sami | add child class | detection_20260630_v6 |
 
 
 ---
@@ -52,9 +52,14 @@ Main features:
 - Model Development
   - https://github.com/DeltaX-AI-Lab/icms-face-landmark
 
+### version
+| Version| Name | dataset | train by | Note | path |
+|-------|---------|-----|-------|------|----|
+| v1.0|face-detection_v1.0| | binh | Train with new data | facial_20260227_v2/model/20251120.onnx |
+
 ---
 
-## 3. Body Keypoint
+## 3. 3D Body Keypoint
 
 ### Purpose
 Estimate occupant body keypoints for posture analysis and occupant monitoring.
@@ -68,12 +73,34 @@ Main features:
 #### 3D Body Keypoint
 - https://github.com/DeltaX-AI-Lab/icms-3d-body-metrabs
 
-#### 2D Body Keypoint
-- https://github.com/DeltaX-AI-Lab/mobis-oms-pose-estimation-yolox
+### version
+| Version| Name | dataset | train by | Note | path |
+|-------|---------|-----|-------|------|----|
+| v1.0|3d-body-keypoint_v1.0 | | yunho | merge driver & front | body_3d/body_3d_20260318_v2/model/eff2s_coco19_backbone_head.onnx |
 
 ---
 
-## 4. Driver Behavior Classification
+## 4. 2D Body Keypoint
+
+### Purpose
+Estimate occupant body keypoints for posture analysis and occupant monitoring.
+
+Main features:
+- Out-of-Position Detection
+- Driver Behavior
+
+### Repository
+#### 2D Body Keypoint
+- https://github.com/DeltaX-AI-Lab/mobis-oms-pose-estimation-yolox
+
+### version
+| Version| Name |dataset | train by | Note | path |
+|-------|---------|-----|-------|------|----|
+| v1.0|3d-body-keypoint_v1.0 | | binh | PHA Final | body_kpts/body_kpts_20260227_v2/model/body_keypoints_0303.onnx |
+
+---
+
+## 5. Driver Behavior Classification
 
 ### Purpose
 Classify driver behaviors to detect potentially unsafe driving actions.
@@ -88,18 +115,10 @@ Main features:
 ### Repository
 - https://github.com/DeltaX-AI-Lab/icms-driver-behavior-classification
 
----
-
-## 5. Head Pose Estimation
-
-### Purpose
-Estimate the driver's head orientation to support driver distraction detection.
-
-Main features:
-- Driver Distraction Detection
-
-### Repository
-- https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
+### version
+| Version| Name | dataset | train by | Note | path |
+|-------|---------|-----|-------|------|----|
+| v1.0|behavior_v1.0 | binh | accuracy improved + size reduced | driver_behaviour_20260518_v2/model/PHA_Driver_Behavior_dev_mobilenet_v2_V6.0_350x350.onnx |
 
 ---
 
@@ -114,12 +133,28 @@ Main features:
 ### Repository
 - https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
 
-### Dataset
-- GT Lab Gaze Dataset
+### version
+| Version| Name | dataset | train by | Note | path |
+|-------|---------|-----|-------|------|----|
+| v1.0|gaze_v1.0 | | maksym | accuracy improved + input size changed | gaze_20260514_v4_qat_v1/model/best_model_qat.onnx |
+
+
 
 ---
 
-## 7. Dynamic ROI (Auto Calibration)
+## 7. Head Pose Estimation
+### Purpose
+Estimate the driver's head orientation to support driver distraction detection.
+
+Main features:
+- Driver Distraction Detection
+
+### Repository
+- https://github.com/DeltaX-AI-Lab/3D_Gaze_Ground_Truth
+
+---
+
+## 8. Dynamic ROI (Auto Calibration)
 
 ### Purpose
 Automatically adjust the Region of Interest (ROI) according to camera position or vehicle model, minimizing manual calibration.
