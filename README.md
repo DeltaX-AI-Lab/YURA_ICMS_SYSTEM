@@ -64,7 +64,7 @@ Main features:
 
 | Version | Date       | Name                | Dataset | Train By | Note                | Path                                   |
 | ------- | ---------- | ------------------- | ------- | -------- | ------------------- | -------------------------------------- |
-| v1.0.0  | 2026.04.14 | face-detection_v1.0 |         | binh     | Train with new data | facial_20260227_v2/model/20251120.onnx |
+| v1.0.0  | 2026.04.14 | face-detection_v1.0 |    -    | binh     | Train with new data | facial_20260227_v2/model/20251120.onnx |
 
 ---
 
@@ -140,7 +140,7 @@ Main features:
 
 | Version | Date | Name          | Dataset | Train By | Note                             | Path                                                                                      |
 | ------- | ---- | ------------- | ------- | -------- | -------------------------------- | ----------------------------------------------------------------------------------------- |
-| v1.0.0  |      | behavior_v1.0 |         | binh     | accuracy improved + size reduced | driver_behaviour_20260518_v2/model/PHA_Driver_Behavior_dev_mobilenet_v2_V6.0_350x350.onnx |
+| v1.0.0  |      | behavior_v1.0 |    -    | binh     | accuracy improved + size reduced | driver_behaviour_20260518_v2/model/PHA_Driver_Behavior_dev_mobilenet_v2_V6.0_350x350.onnx |
 
 ---
 
